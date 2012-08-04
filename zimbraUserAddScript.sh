@@ -15,7 +15,7 @@
 # 
 # "Email ID";"Name";"Company";"Description";"Mobile Number";"Phone Number";"Address";"State";"Country"
 # Example:
-#"rohit.thomas@example.com";"Rohit Thomas";"Acme Inc";"This guy works in accounts";996323418;4216857841;"Valley road, random colony";"New Delhi";"India"
+#"keyur.shah@example.com";"Keyur Shah";"Acme Inc";"This guy works in engineering";996323418;4216857841;"Valley road, random colony";"New Delhi";"India"
 # 
 # ENSURE THAT THE SEPARATOR IS A SEMI-COLON, AND NOT A COMMA. This is necessary 
 # because addresses usually have a comma, and that screws with the script.
