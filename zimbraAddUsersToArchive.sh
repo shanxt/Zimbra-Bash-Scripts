@@ -15,7 +15,7 @@
 #	
 #
 #
-# IP of the archive server (arhchive.example.com)
+# IP of the archive server (archive.example.com)
 ARCHIP=192.168.1.18
 
 # File names of example.com and archive.example.com users
