@@ -1,6 +1,6 @@
 #!/bin/bash
 # -----------------------------------------------------------------------------
-#  Script to randomize passwords in Zimbra 6,7
+#  Script to randomize passwords in ZCS 6, 7, 8
 #   
 #  written by Shashank Shekhar Tewari
 #
@@ -28,7 +28,14 @@ ZMINPUT='/tmp/zmprovPwChange'
 # Empties the two files
 echo "" > $PASSLIST
 echo "" > $ZMINPUT
+echo "" > $USERLIST
 
+echo "Generating userlist..."
+zmprov -l gaa > $USERLIST
+echo ""
+echo "Done."
+
+echo "Generating passwords..."
 while read USERNAME; do
 
 
@@ -51,3 +58,6 @@ echo "ma \"$USERNAME\" userPASSWORD \"$PASSW\" zimbraPasswordMustChange TRUE" >>
 PASSW=""
 done < $USERLIST
 
+echo ""
+echo "Done."
+echo "Please note all users will have to reset their password on first login."
