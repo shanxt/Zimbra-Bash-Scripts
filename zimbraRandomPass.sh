@@ -61,6 +61,6 @@ done < $USERLIST
 echo ""
 echo "Done."
 echo ""
-echo "Now review $ZMINPUT, and if all looks good, make the changes in Zimbra by running \"zmprov < $ZMINPUT\" as the zimbra user.
+echo "Now review $ZMINPUT, and if all looks good, make the changes in Zimbra by running \"zmprov < $ZMINPUT\" as the zimbra user."
 echo ""
 echo "Please note all users will have to reset their password on first login."
