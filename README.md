@@ -20,8 +20,6 @@ on the archival server. It will also make the appropriate changes in postfix.
 The only pre-requisite is to ensure all the servers have passwordless ssh authenticaton 
 (login using keys), or the script will fail.
 This should be the default on all ZCS servers.
-# OR THE SCRIPT WILL FAIL
-
 
 ### zimbraRandomPass.sh
 This generates a random password for all users, stores it in a file,
