@@ -20,7 +20,7 @@ on the archival server. It will also make the appropriate changes in postfix.
 The only pre-requisite is to ensure all the servers have passwordless ssh authenticaton 
 (login using keys), or the script will fail.
 This should be the default on all ZCS servers.
-
+#
 ### zimbraRandomPass.sh
 This generates a random password for all users, stores it in a file,
 and forces users to change their passwords once they successfully login.
@@ -33,7 +33,7 @@ To use it, simply run the script. Two files are then generated:
 ```
 zmprov < /tmp/zmprovPwChange
 ```
-
+#
 ### zimbraUserAddScript.sh
 This script takes a csv file, called '/tmp/newusers.csv', and converts it as an input
 file (called /tmp/zmprovinput) for 'zmprov' command. The users can then be added
