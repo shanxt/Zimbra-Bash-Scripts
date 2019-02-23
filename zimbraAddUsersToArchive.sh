@@ -7,7 +7,7 @@
 #  written by Shashank Shekhar Tewari
 # 
 #
-#  Feb 22, 2012
+#  
 #
 #  This script will add users that are present on the main Zimbra server, but not
 #  on the archival server. It will also make the appropriate changes in postfix.

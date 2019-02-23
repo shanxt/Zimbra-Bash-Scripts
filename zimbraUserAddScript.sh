@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # -----------------------------------------------------------------------------
-#  Script to add users in Zimbra 6,7 using a csv file
+#  Script to add users in Zimbra 6,7,8 using a csv file
 #   
 #  written by Shashank Shekhar Tewari
 #
@@ -15,7 +15,7 @@
 # 
 # "Email ID";"Name";"Company";"Description";"Mobile Number";"Phone Number";"Address";"State";"Country"
 # Example:
-#"keyur.shah@example.com";"Keyur Shah";"Acme Inc";"This guy works in engineering";996323418;4216857841;"Valley road, random colony";"New Delhi";"India"
+# "keyur.shah@example.com";"Keyur Shah";"Acme Inc";"This guy works in engineering";996323418;4216857841;"Valley road, random colony";"New Delhi";"India"
 # 
 # ENSURE THAT THE SEPARATOR IS A SEMI-COLON, AND NOT A COMMA. This is necessary 
 # because addresses usually have a comma, and that screws with the script.

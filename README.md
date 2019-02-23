@@ -1,4 +1,4 @@
-# Project Title
+# Zimbra bash scripts
 
 Bash scripts written to do specific tasks in Zimbra
 
@@ -17,6 +17,12 @@ wget https://raw.githubusercontent.com/shanxt/Zimbra-Scripts/master/zimbraAddUse
 This script will add users that are present on the main Zimbra server, but not
 on the archival server. It will also make the appropriate changes in postfix.
 
+The only pre-requisite is to ensure all the servers have passwordless ssh authenticaton 
+(login using keys), or the script will fail.
+This should be the default on all ZCS servers.
+# OR THE SCRIPT WILL FAIL
+
+
 ### zimbraRandomPass.sh
 This generates a random password for all users, stores it in a file,
 and forces users to change their passwords once they successfully login.
@@ -34,8 +40,8 @@ zmprov < /tmp/zmprovPwChange
 This script takes a csv file, called '/tmp/newusers.csv', and converts it as an input
 file (called /tmp/zmprovinput) for 'zmprov' command. The users can then be added
 by simply running 'zmprov < /tmp/zmprovinput'
-# 
-So basically, follow these steps:
+ 
+Follow these steps:
 1. Create a csv file in the following format, with the separator being a semi-colon:
 ``` 
 "Email ID";"Name";"Company";"Description";"Mobile Number";"Phone Number";"Address";"State";"Country"

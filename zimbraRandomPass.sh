@@ -1,6 +1,6 @@
 #!/bin/bash
 # -----------------------------------------------------------------------------
-#  Script to randomize passwords in ZCS 6, 7, 8
+#  Script to create random passwords in ZCS 6.x, 7.x, 8.x
 #   
 #  written by Shashank Shekhar Tewari
 #
